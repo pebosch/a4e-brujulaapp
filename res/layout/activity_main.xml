@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/txtAngle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:id="@+id/imgViewCompass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAngle"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/descriptionImg"
+        android:src="@drawable/flecha" />
+
+	<RadioGroup
+	    android:id="@+id/rdGrp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/imgViewCompass"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="60dp"
+	    android:checkedButton="@+id/norte"
+	    android:orientation="horizontal" >
+
+	    <RadioButton
+	        android:id="@+id/norte"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/text_norte" />
+
+	    <RadioButton
+	        android:id="@+id/sur"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/text_sur" />
+
+	    <RadioButton
+	        android:id="@+id/este"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/text_este" />
+
+	    <RadioButton
+	        android:id="@+id/oeste"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/text_oeste" />
+	</RadioGroup>
+	
+	<TextView
+        android:id="@+id/txtFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#f2f2aa"
+        android:gravity="center"
+        android:padding="10dp" />
+    
+</RelativeLayout>

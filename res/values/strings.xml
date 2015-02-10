@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brújula App</string>
+    <string name="optionLicencia">Licencia</string>
+    <string name="optionCodigo">Código fuente</string>
+    <string name="optionAyuda">Acerca de</string>
+    <string name="text_norte">N</string>
+    <string name="text_sur">S</string>
+    <string name="text_este">E</string>
+    <string name="text_oeste">O</string>
+    <string name="descriptionImg">ImageView</string>
+
+</resources>
